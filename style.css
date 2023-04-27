@@ -14,8 +14,8 @@
 
 .text {
   color: white;
-  font-size: 22px;
-  text-shadow: 2px 2px 2px black;
+  font-size: 32px;
+  text-shadow: 20px 20px 2px rgb(249, 187, 255);
   transform: rotate(-5deg);
 }
 
@@ -49,12 +49,12 @@
 
 @keyframes wiggle {
   0% {
-    transform: rotate(-5deg);
+    transform: rotate(-15deg);
   }
   50% {
-    transform: rotate(5deg);
+    transform: rotate(15deg);
   }
   100% {
-    transform: rotate(-5deg);
+    transform: rotate(-15deg);
   }
 }
